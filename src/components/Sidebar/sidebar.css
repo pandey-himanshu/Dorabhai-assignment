@@ -1,0 +1,115 @@
+.sidebar_user {
+    width: 100%;
+    height: 175px;
+    background-image: linear-gradient(to bottom, #ff7171, #ff5050);
+    position: relative;
+}
+
+.sidebar_user_bubble1 {
+    width: 112px;
+    height: 112px;
+    border: 1px solid #ff7171;
+    border-radius: 50%;
+    background-color: #ff7171;
+    box-shadow: 0px 8px 16px 0px #ff6a6a4d;
+    position: absolute;
+    top: 5%;
+    left: 15%;
+}
+
+.sidebar_user_bubble2 {
+    width: 26px;
+    height: 26px;
+    border: 1px solid none;
+    border-radius: 50%;
+    background-image: linear-gradient(to bottom, #ff7171, #ff5050);
+    position: absolute;
+    top: 5%;
+    left: 80%;
+}
+
+.sidebar_user_bubble3 {
+    width: 55px;
+    height: 55px;
+    border: 1px solid none;
+    border-radius: 50%;
+    background-image: linear-gradient(to bottom, #ff7171, #ff5050);
+    position: absolute;
+    top: 65%;
+    left: -10%;
+}
+
+.sidebar_user_user p {
+    position: absolute;
+    bottom: 20px;
+    left: 10px;
+    font-weight: 500;
+    color: #fff;
+    word-wrap: break-word;
+}
+
+.sidebar_user_user img {
+    position: absolute;
+    width: 50%;
+    min-width: 100px;
+    object-fit: contain;
+    bottom: 0;
+    right: 10px;
+}
+
+ul svg {
+    color: #626878;
+    height: 25px;
+    width: 25px;
+}
+
+.sidebar_container ul li {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    padding-left: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.sidebar_container ul li span {
+    margin-left: 10px;
+    font-weight: 400;
+    color: #626878;
+}
+
+.sidebar_social {
+    margin-top: 200px;
+}
+
+.sidebar_social p {
+    margin-left: 25px;
+    font-weight: 600;
+    color: #626878;
+}
+
+.sidebar_social_handles {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    width: 80%;
+    margin: 10px auto;
+}
+
+.sidebar_social_handles img {
+    width: 35px;
+    object-fit: contain;
+}
+
+.sidebar_social_playstore {
+    width: 100%;
+    object-fit: contain;
+}
+
+@media (max-width: 990px) {
+    .sidebar_user_user img {
+        display: none;
+    }
+}
+

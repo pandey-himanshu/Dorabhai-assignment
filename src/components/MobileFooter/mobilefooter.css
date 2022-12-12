@@ -1,0 +1,14 @@
+.mobile__footer__logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 25px;
+    background-color: #fff;
+    box-shadow: 0px -20px 30px rgba(214, 214, 214, 0.3);
+}
+
+.mobile__footer svg {
+    color: #626878;
+    height: 25px;
+    width: 25px;
+}
